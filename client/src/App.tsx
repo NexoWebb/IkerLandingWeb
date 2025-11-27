@@ -1,10 +1,20 @@
-
 import './App.css'
+import { StickyNavbar } from './components/Navbar'
+import { HeroCarousel } from './components/HeroCarousel'
+import { BeforeAfter } from './components/BeforeAfter'
+import { Testimonials } from './components/Testimonials'
 
 function App() {
-   return <h1 className="text-4xl font-bold text-green-600">Tailwind OK ✅</h1>
+  return (
+    <div className="min-h-screen">
+      <StickyNavbar />
+      <main>
+        <HeroCarousel />
+        <BeforeAfter />
+        <Testimonials />
+      </main>
+    </div>
+  )
 }
-
-
 
 export default App

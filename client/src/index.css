@@ -1,3 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-principalColor: #5be1e6;
+  --color-colorFondoWeb: #00223a;
+  --font-family-sans: "Montserrat", system-ui, -apple-system, sans-serif;
+}
